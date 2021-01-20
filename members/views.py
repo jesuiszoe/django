@@ -25,7 +25,7 @@ def signup(req):
              useremail = email
 
         )
-        members.save
+        
         return HttpResponse("<h2>"+username+"</h2>")
     
     return render(req, 'index.html')
